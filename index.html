@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Recipe Realm</title>
+
+<!-- Code for font awesome cdn -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Code for font awesome cdn -->
+
+<!-- Code for linking css file -->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<!-- Code for linking css file -->
+
+<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<!-- header section -->
+<header class="header">
+	<a href="#" class="logo"> <i class="fa fa-cutlery" aria-hidden="true"></i> Recipe Realm</a>
+
+
+<nav class="navbar">
+	<a href="#home">home</a>
+	<a href="#features">top recipes</a>
+	<a href="#products">recipes</a>
+	<a href="#categories">cuisines</a>
+	<a href="#contribute">contribute</a>
+	<a href="#review">reviews</a>
+</nav>
+
+
+<div class="icons">
+	<div class="fa fa-bars" id="menu-btn"></div>
+	<div class="fa fa-search" id="fa-search-btn"></div>
+	<div class="fa fa-heart" id="cart-btn"></div>
+	<div class="fa fa-user" id="login-btn"></div>
+</div>
+
+
+<form class="search-form">
+	<input type="search" id="search-box" placeholder="Search Here.....">
+	<label for="search-box" class="fa fa-search"></label>
+</form>
+
+
+
+<div class="shopping-cart">
+	<div class="box">
+		<i class="fa fa-trash"></i>
+		<img src="image/cart-img-1.png">
+		<div class="content">
+			<h3>Paneer Chilli</h3>
+			<span class="price">Added to Favourites</span>
+		</div>
+	</div>
+	<div class="box">
+		<i class=" fa fa-trash"></i>
+		<img src="image/cart-img-2.png">
+		<div class="content">
+			<h3>Tomato Soup</h3>
+			<span class="price">Added to Favourites</span>
+		</div>
+	</div>
+	<div class="box">
+		<i class=" fa fa-trash"></i>
+		<img src="image/cart-img-3.png">
+		<div class="content">
+			<h3>Sandwich</h3>
+			<span class="price">Added to Favourites</span>
+		</div>
+	</div>
+
+<div class="total"> 3 Recipes in favourites </div>
+<a href="#" class="btn">Back to Homepage</a>
+	</div>
+
+</div>
+
+
+<form action="#" class="login-form">
+	<h3>login form</h3>
+	<input type="email" placeholder="Your email" class="box">
+	<input type="password" placeholder="Your password" class="box">
+
+<p>Forgot Your Password <a href="#"> Click Here</a></p>
+<p>Dont have an account <a href="#"> Create Now</a></p>
+
+	<input type="submit" value="Login Now" class="btn">
+	
+</form>
+
+
+</header>
+<!-- header section -->
+
+
+
+<!-- banner section -->
+<section class="home" id="home">
+	<div class="content">
+		<h3>Discover Culinary Delights: Your Ultimate <span>Recipe</span> Destination</h3>
+		<p>"From Quick Weeknight Meals to Gourmet Feasts, Recipe Realm Got You Covered"</p>
+
+		<a href="#" class="btn">Dive In Now</a>
+	</div>
+</section>
+<!-- banner section -->
+
+
+
+
+<!-- top recipes section -->
+
+<section class="features" id="features">
+	<h1 class="heading"> Top <span>Recipes</span> </h1>
+
+<div class="box-container">
+	<div class="box">
+		<img src="image/feature-img-1.png">
+		<h3>Pasta</h3>
+
+		<p>By Gaurav Sharma</p>
+
+		<a href="pasta.html" class="btn">read more</a>
+	</div>
+
+	<div class="box">
+		<img src="image/feature-img-2.png">
+		<h3>Pav Bhaji</h3>
+
+		<p>By Khushi Shetty</p>
+
+		<a href="pav_bhaji.html" class="btn">read more</a>
+	</div>
+
+	<div class="box">
+		<img src="image/feature-img-3.png">
+		<h3>Greek Salad</h3>
+
+		<p>By Pratik Shiraskar</p>
+
+		<a href="greek_salad.html" class="btn">read more</a>
+	</div>
+
+</div>
+
+</section>
+
+<!-- top recipes section -->
+
+
+
+
+<!-- recipes section -->
+
+
+<section class="products" id="products">
+	<h1 class="heading"><span>Recipes</span></h1>
+
+	<div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+			<img src="image/product-1.png">
+			<h3>Veg. Biryani</h3>
+			<div class="author">By Rahul</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="veg_biryani.html" class="btn">Dive In</a>
+			</div>
+
+
+			<div class="swiper-slide box">
+			<img src="image/product-2.png">
+			<h3>Gulab Jamun</h3>
+			<div class="author">By Priya</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="gulab_jamun.html" class="btn">Dive In</a>
+			</div>
+
+			<div class="swiper-slide box">
+			<img src="image/product-3.png">
+			<h3>Samosa</h3>
+			<div class="author">By Neelam</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="samosa.html" class="btn">Dive In</a>
+			</div>
+
+			<div class="swiper-slide box">
+			<img src="image/product-4.png">
+			<h3>Chocolate Pastry</h3>
+			<div class="author">By Rajeev</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="pastry.html" class="btn">Dive In</a>
+			</div>
+		</div>
+	</div>
+
+
+<div class="swiper product-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+			<img src="image/product-5.png">
+			<h3>Tacos</h3>
+			<div class="author">By Pablo</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="tacos.html" class="btn">Dive In</a>
+			</div>
+
+
+			<div class="swiper-slide box">
+			<img src="image/product-6.png">
+			<h3>spring roll</h3>
+			<div class="author">By simran</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="spring_roll.html" class="btn">Dive In</a>
+			</div>
+
+			<div class="swiper-slide box">
+			<img src="image/product-7.png">
+			<h3>Fries</h3>
+			<div class="author">By Will</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="fries.html" class="btn">Dive In</a>
+			</div>
+
+			<div class="swiper-slide box">
+			<img src="image/product-8.png">
+			<h3>Chesse nuggets</h3>
+			<div class="author">By Ritu</div>
+			<div class="stars">
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half"></i>
+			</div>
+			<a href="nuggets.html" class="btn">Dive In</a>
+			</div>
+		</div>
+	</div>
+
+
+</section>
+
+
+<!-- recipes section -->
+
+
+
+<!-- category section -->
+
+
+
+<section class="categories" id="categories">
+	<h1 class="heading"><span>Cuisines</span></h1>
+
+	<div class="box-container">
+		<div class="box">
+			<img src="image/cat-1.png">
+			<h3>Indian Cuisine</h3>
+			<a href="indian_cuisine.html" class="btn">Check</a>
+		</div>
+
+
+		<div class="box">
+			<img src="image/cat-2.png">
+			<h3>Chinese Cuisine</h3>
+			<a href="chinese_cuisine.html" class="btn">Check</a>
+		</div>
+
+		<div class="box">
+			<img src="image/cat-3.png">
+			<h3>Italian Cuisine</h3>
+			<a href="italian_cuisine.html" class="btn">Check</a>
+		</div>
+
+		<div class="box">
+			<img src="image/cat-4.png">
+			<h3>Mexian Cuisine</h3>
+			<a href="mexican_cuisine.html" class="btn">Check</a>
+		</div>
+	</div>
+</section>
+
+
+<!-- category section -->
+
+
+<!-- share recipes section -->
+
+
+
+<section class="contribute" id="contribute">
+	<h1 class="heading"><span>Contribute</span></h1>
+
+	<div class="box-container">
+		<div class="box">
+			<img src="image/cat-1.png">
+			<h3>Share your Recipe</h3>
+			<a href="index1.html" class="btn">add</a>
+		</div>
+
+	</div>
+</section>
+
+
+
+<!-- share recipes section -->
+
+
+
+
+<!-- Review section -->
+<section class="review" id="review">
+	<h1 class="heading"><span>Reviews</span></h1>
+
+	<div class="swiper review-slider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide box">
+				<img src="image/pic-1.png">
+				<p>I recently stumbled upon a fantastic recipe management website that has transformed my culinary adventures – Recipe Realm. As someone who loves experimenting in the kitchen, this platform has become my go-to tool for organizing, discovering, and perfecting recipes.</p>
+				<h3>John</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star-half"></i>
+				</div>
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/pic-2.png">
+				<p>The first thing that struck me about Recipe Realm was its user-friendly interface. Navigating the website is a breeze, and the intuitive design makes it easy to find what you're looking for. Whether you're a seasoned chef or a novice cook, this platform caters to everyone.</p>
+				<h3>Lara</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				</div>
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/pic-3.png">
+				<p>Recipe Realm fosters a sense of community, allowing users to rate and review recipes. This feature has helped me identify tried-and-true recipes and discover new, highly-rated ones. It's like having a global kitchen full of fellow food enthusiasts sharing their experiences.</p>
+				<h3>Kane</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				</div>
+			</div>
+
+			<div class="swiper-slide box">
+				<img src="image/pic-4.png">
+				<p>The mobile version of Recipe Realm is just as impressive as its desktop counterpart. I can access my recipes and plan meals on the go, making it a valuable tool for busy lifestyles. I can't imagine cooking without Recipe Realm anymore. It has become an indispensable part of my kitchen.</p>
+				<h3>Michelle</h3>
+				<div class="stars">
+					<i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star"></i>
+				    <i class="fa fa-star-half"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!-- Review section -->
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="js/script.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Recipe Contribute</title>
+	<link rel="stylesheet" href="styles1.css">
+  </head>
+  <body>
+    <nav>
+	  <h1>Recipe Realm</h1>
+    </nav>
+    <div class="container">
+	   <!-- Add recipes form -->
+       <div class="left-column">
+        <h3>Add Recipe</h3>
+        <form action="connect.php" method="post">
+          <label for="recipe_name">Name:</label>
+          <input type="text" id="recipe_name" name="recipe_name" required>
+          <br>
+          <label for="recipe_ingredients">Ingredients:</label>
+          <textarea id="recipe_ingredients" name="recipe_ingredients" rows="5" required></textarea>
+          <br>
+          <label for="recipe_method">Method:</label>
+          <textarea id="recipe_method" name="recipe_method" rows="5" required></textarea>
+          <br>
+          <button type="submit">Add Recipe</button>
+        </form>
+      </div>
+	  <!-- Search bar/view recipes list -->
+	  <div class="right-column">
+		<div id="search-section">
+          <h3>Recipes List</h3>
+          <label for="search-box">Search:</label>
+          <input type="text" id="search-box">
+        </div>
+        <div id="recipe-list"></div>
+		<div id="no-recipes">You have no recipes.</div>
+      </div>
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
